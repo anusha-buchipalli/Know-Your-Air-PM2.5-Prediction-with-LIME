@@ -46,4 +46,29 @@ The workflow consists of eight main stages:
 
 8. **Result Visualization**  
    - Plot prediction results and LIME explanations to support interpretability and decision making.
+## Dataset Reference
+
+This project uses the Air Pollution Image Dataset from India and Nepal, which is publicly available on Kaggle:  
+[Air Pollution Image Dataset from India and Nepal](https://www.kaggle.com/datasets/adarshrouniyar/air-pollution-image-dataset-from-india-and-nepal)
+
+This project uses the Air Pollution Image Dataset from India and Nepal, containing 12,240 images with a size of 224x224 pixels.
+
+The dataset is organized into two main folders:
+
+- **Combined_Dataset:**  
+  - `All_img`: Contains all collected images across AQI classes.  
+  - `IND_and_NEP`: Contains six subfolders representing different AQI classes.  
+  - Includes a CSV file labeling each image with parameters such as Location, Filename, Year, Month, Day, Hour, AQI, PM2.5, PM10, O3, CO, SO2, NO2, and AQI_Class.
+
+- **Country_wise_Dataset:**  
+  - Divided into two subfolders: India and Nepal.  
+  - Each country's folder contains city-wise subfolders.  
+  - Each city folder has further subfolders for each AQI class and an associated CSV file with detailed image metadata (same parameters as above).
+
+### Cities in the Dataset
+
+- India: ITO (Delhi), Dimapur (Nagaland), Spice Garden (Bengaluru), Knowledge Park III (Greater Noida), New Industrial Town (Faridabad), Borivali East (Mumbai), Oragadam (Tamil Nadu)  
+- Nepal: Biratnagar
+
+This structured dataset forms the basis for training and testing machine learning models in this project.
 
