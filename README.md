@@ -13,4 +13,4 @@ This project leverages interpretable machine learning techniques to forecast PM2
 - Detailed visualization of model outputs and explanation results for easy understanding  
 - Scalable pipeline suitable for environmental monitoring and air quality forecasting applications
 ## Model Flow
-![Workflow Diagram]("C:\Users\anush\Downloads\generated-image.png")
+![Workflow Diagram]("generated-image.png")
