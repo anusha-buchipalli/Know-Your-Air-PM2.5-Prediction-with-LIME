@@ -13,5 +13,8 @@ This project leverages interpretable machine learning techniques to forecast PM2
 - Detailed visualization of model outputs and explanation results for easy understanding  
 - Scalable pipeline suitable for environmental monitoring and air quality forecasting applications
 ## Model Flow
+The following diagram illustrates the complete workflow of the Know-Your-Air-PM2.5-Prediction-with-LIME model:
+
+Know-Your-Air-PM2.5-Prediction-with-LIME Model Workflow
 ![Banner](https://github.com/anusha-buchipalli/Know-Your-Air-PM2.5-Prediction-with-LIME/blob/main/generated-image.png?raw=true)
 
