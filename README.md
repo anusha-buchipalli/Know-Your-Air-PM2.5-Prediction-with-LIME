@@ -17,4 +17,33 @@ The following diagram illustrates the complete workflow of the Know-Your-Air-PM2
 
 Know-Your-Air-PM2.5-Prediction-with-LIME Model Workflow
 ![Banner](https://github.com/anusha-buchipalli/Know-Your-Air-PM2.5-Prediction-with-LIME/blob/main/generated-image.png?raw=true)
+The workflow consists of eight main stages:
+1. **Data Preparation**  
+   - Import raw air quality datasets (image/tabular).  
+   - Perform data cleaning and preprocessing including missing value imputation and normalization.  
+
+2. **Feature Engineering**  
+   - Generate relevant features such as lag variables, statistical summaries, or image-derived metrics.  
+   - Encode categorical variables if any.
+
+3. **Model Selection**  
+   - Compare multiple machine learning models: Random Forest, XGBoost, LightGBM, etc.  
+   - Fine-tune hyperparameters for optimum performance.
+
+4. **Model Training**  
+   - Train models on prepared datasets.  
+   - Apply cross-validation or train-test splits for validation.
+
+5. **Prediction**  
+   - Generate PM2.5 concentration predictions on test or new data.
+
+6. **Explainability with LIME**  
+   - Apply LIME algorithm to interpret and explain individual predictions.  
+   - Examine feature contributions to prediction outcomes.
+
+7. **Model Evaluation**  
+   - Assess model accuracy using metrics such as RMSE, MAE, and \(R^2\).
+
+8. **Result Visualization**  
+   - Plot prediction results and LIME explanations to support interpretability and decision making.
 
